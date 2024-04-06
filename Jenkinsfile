@@ -2,6 +2,7 @@ pipeline {
 
 agent any
 
+stages {
 stage("SCM") {
 	steps {
 		echo "scm pulled successfuylly"
@@ -25,5 +26,5 @@ stage("DEPLOY") {
 
 }
 
-
+}
 }
